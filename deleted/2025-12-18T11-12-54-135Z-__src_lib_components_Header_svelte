@@ -1,0 +1,41 @@
+<script lang="ts">
+  import { onMount } from "svelte";
+
+  let isScrolled = false;
+
+  onMount(() => {
+    const handleScroll = () => {
+      isScrolled = window.scrollY > 50;
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+</script>
+
+<div class="fixed top-0 left-0 w-full z-50 transition-all duration-300 {isScrolled ? 'bg-[#f4f2ed]/90 backdrop-blur-md border-b border-gray-200 text-[#0f281e]' : 'bg-transparent text-white'}">
+  <!-- Top Bar -->
+  <div class="bg-[#f4f2ed] text-[#0f281e] text-center text-[10px] py-2 font-bold tracking-wide border-b border-gray-200/50 transition-all duration-300 {isScrolled ? 'h-0 overflow-hidden py-0 border-none opacity-0' : 'h-auto opacity-100'}">
+    <a href="/" class="hover:underline inline-block">Is DS-01® Daily Synbiotic Right For You? &rarr;</a>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-6 py-4 max-w-[1440px] mx-auto">
+    <!-- Left: Logo & Links -->
+    <div class="flex items-center gap-8">
+      <a href="/" class="text-3xl font-bold tracking-tighter flex items-center gap-1 transition-colors">
+        Seed<span class="w-2 h-2 rounded-full mt-1 {isScrolled ? 'bg-[#0f281e]' : 'bg-white'}"></span>
+      </a>
+      <div class="hidden md:flex items-center gap-6 text-sm font-medium">
+        <a href="/" class="hover:opacity-70 transition-opacity">Shop</a>
+        <a href="/" class="hover:opacity-70 transition-opacity">Science</a>
+        <a href="/" class="hover:opacity-70 transition-opacity">Learn</a>
+      </div>
+    </div>
+
+    <!-- Right: Actions -->
+    <div class="flex items-center gap-6 text-sm font-medium">
+      <a href="/" class="hover:opacity-70 transition-opacity">Login</a>
+      <a href="/" class="px-5 py-2 rounded-full transition-all {isScrolled ? 'bg-[#0f281e] text-white hover:bg-opacity-90' : 'bg-white text-[#0f281e] hover:bg-gray-100'}">Get Started</a>
+    </div>
+  </nav>
+</div>
