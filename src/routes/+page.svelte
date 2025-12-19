@@ -9,6 +9,11 @@
   import Footer from '$lib/components/Footer.svelte';
 </script>
 
+<svelte:head>
+  <title>Tipple - Unified Alcohol Commerce Infrastructure</title>
+  <meta name="description" content="Integrated compliance, logistics, and payment systems that power the $1.6T alcohol market. Pre-built ERP connectors for distributors and brands." />
+</svelte:head>
+
 <Header />
 
 <main class="bg-white overflow-hidden">

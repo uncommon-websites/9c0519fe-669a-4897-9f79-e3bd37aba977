@@ -3,12 +3,12 @@
 </script>
 
 <div class="space-y-32 pb-32">
-  <!-- Grid Section -->
+  <!-- Order Management Section -->
   <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
     <div>
-      <h3 class="text-4xl font-medium mb-6">Grid</h3>
+      <h3 class="text-4xl font-medium mb-6">Order Management</h3>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        <strong class="text-black">Commands for money.</strong> One API/SDK to send, receive, and settle value globally—fiat, stablecoins, or bitcoin. Always real-time, always low cost.
+        <strong class="text-black">Unified order orchestration.</strong> One API to manage orders across distributors, retailers, and fulfillment—with built-in compliance checks and real-time inventory sync.
       </p>
       <div class="flex flex-col gap-2">
         <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="bg-gray-50 rounded-3xl p-12 flex items-center justify-center min-h-[400px]">
-      <!-- Grid Visualization -->
+      <!-- Order Flow Visualization -->
       <div class="relative w-full max-w-md">
         <div class="flex justify-between items-center">
           <!-- Central Hub -->
@@ -29,7 +29,7 @@
           
           <!-- Endpoints -->
           <div class="flex flex-col gap-3">
-            {#each ['Send', 'Receive', 'Convert', 'Hold', 'Ramp', 'Program', 'Identity'] as item, i}
+            {#each ['Orders', 'Compliance', 'Inventory', 'Fulfillment', 'Payments', 'Tracking', 'Returns'] as item, i}
               <div class="flex items-center gap-4">
                 <div class="w-24 h-[1px] bg-gradient-to-r from-black/20 to-transparent transform rotate-180 origin-left"></div>
                 <div class="flex items-center gap-2">
@@ -54,12 +54,12 @@
     </div>
   </section>
 
-  <!-- Connect Section -->
+  <!-- Compliance Section -->
   <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
     <div>
-      <h3 class="text-4xl font-medium mb-6">Connect</h3>
+      <h3 class="text-4xl font-medium mb-6">Compliance Engine</h3>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        <strong class="text-black">Enterprise-grade Bitcoin.</strong> Lightspark handles node management, key management, liquidity, channel balancing, and routing—so your team can focus on product development and growth.
+        <strong class="text-black">Automated regulatory compliance.</strong> Tipple handles license verification, age checks, state regulations, and tax calculations—so your team can focus on growth, not paperwork.
       </p>
       <div class="flex flex-col gap-2">
         <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
@@ -77,12 +77,12 @@
     </div>
   </section>
 
-  <!-- Spark Section -->
+  <!-- ERP Integrations Section -->
   <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
     <div>
-      <h3 class="text-4xl font-medium mb-6">Spark</h3>
+      <h3 class="text-4xl font-medium mb-6">ERP Connectors</h3>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        <strong class="text-black">A powerful Bitcoin Layer 2.</strong> Move bitcoin and bitcoin-native assets (including stablecoins) instantly, at near-zero cost, while staying fully connected to Bitcoin's infrastructure.
+        <strong class="text-black">Pre-built integrations.</strong> Connect to existing ERP systems with zero custom development. Sync inventory, orders, and financials in real-time across your entire operation.
       </p>
       <div class="flex flex-col gap-2">
         <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
@@ -93,34 +93,38 @@
       </div>
     </div>
     <div class="bg-black rounded-3xl p-12 flex items-center justify-center min-h-[400px]">
-      <!-- Phone Mockup -->
-      <div class="relative w-64 h-[500px] bg-gray-900 rounded-[3rem] border-8 border-gray-800 shadow-2xl overflow-hidden">
+      <!-- Dashboard Mockup -->
+      <div class="relative w-full max-w-md bg-gray-900 rounded-2xl border border-gray-800 shadow-2xl overflow-hidden">
         <!-- Screen Content -->
-        <div class="absolute inset-0 bg-black p-4 text-white">
-          <div class="flex justify-between items-center mb-6 pt-2">
-            <span class="text-xs font-medium">Wallet</span>
-            <div class="w-6 h-6 rounded-full bg-gray-700"></div>
-          </div>
-          <div class="mb-8">
-            <div class="text-2xl font-bold">$12,450.00</div>
-            <div class="text-xs text-green-400">+2.4% today</div>
+        <div class="bg-gray-900 p-6 text-white">
+          <div class="flex justify-between items-center mb-6">
+            <span class="text-sm font-medium">Connected Systems</span>
+            <div class="px-2 py-1 rounded-full bg-green-500/20 text-green-400 text-[10px] font-medium">All Active</div>
           </div>
           <div class="space-y-3">
-             <div class="bg-gray-800/50 p-3 rounded-xl flex items-center gap-3">
-               <div class="w-8 h-8 rounded-full bg-orange-500"></div>
+             <div class="bg-gray-800/50 p-4 rounded-xl flex items-center gap-3 border border-gray-700">
+               <div class="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center text-white font-bold text-xs">SAP</div>
                <div class="flex-1">
-                 <div class="text-xs font-medium">Bitcoin</div>
-                 <div class="text-[10px] text-gray-400">0.45 BTC</div>
+                 <div class="text-sm font-medium">SAP Business One</div>
+                 <div class="text-[10px] text-gray-400">Last sync: 2 min ago</div>
                </div>
-               <div class="text-xs">$12,300</div>
+               <div class="w-2 h-2 rounded-full bg-green-400"></div>
              </div>
-             <div class="bg-gray-800/50 p-3 rounded-xl flex items-center gap-3">
-               <div class="w-8 h-8 rounded-full bg-blue-500"></div>
+             <div class="bg-gray-800/50 p-4 rounded-xl flex items-center gap-3 border border-gray-700">
+               <div class="w-10 h-10 rounded-lg bg-orange-600 flex items-center justify-center text-white font-bold text-xs">NS</div>
                <div class="flex-1">
-                 <div class="text-xs font-medium">USD Coin</div>
-                 <div class="text-[10px] text-gray-400">150 USDC</div>
+                 <div class="text-sm font-medium">NetSuite</div>
+                 <div class="text-[10px] text-gray-400">Last sync: 5 min ago</div>
                </div>
-               <div class="text-xs">$150.00</div>
+               <div class="w-2 h-2 rounded-full bg-green-400"></div>
+             </div>
+             <div class="bg-gray-800/50 p-4 rounded-xl flex items-center gap-3 border border-gray-700">
+               <div class="w-10 h-10 rounded-lg bg-purple-600 flex items-center justify-center text-white font-bold text-xs">QBO</div>
+               <div class="flex-1">
+                 <div class="text-sm font-medium">QuickBooks</div>
+                 <div class="text-[10px] text-gray-400">Last sync: 1 min ago</div>
+               </div>
+               <div class="w-2 h-2 rounded-full bg-green-400"></div>
              </div>
           </div>
         </div>
