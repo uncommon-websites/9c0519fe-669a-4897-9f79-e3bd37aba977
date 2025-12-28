@@ -1,84 +1,123 @@
 <script lang="ts">
 </script>
 
-<section class="relative h-screen min-h-[800px] w-full overflow-hidden bg-[#8C8C84]">
+<section class="relative min-h-screen w-full overflow-hidden bg-[#1a1a1a]">
     <!-- Background Image -->
     <div class="absolute inset-0 w-full h-full">
         <img 
-            src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=2000&auto=format&fit=crop" 
-            alt="Nature background" 
-            class="w-full h-full object-cover opacity-90"
+            src="/generated/image-person-confidently-selecting-a-wine-bott-1766918519273-5.webp" 
+            alt="Confident drink selection" 
+            class="w-full h-full object-cover opacity-30"
         />
-        <div class="absolute inset-0 bg-black/10"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60"></div>
     </div>
 
     <!-- Content -->
-    <div class="relative z-10 h-full container mx-auto px-6 md:px-12 flex items-center">
-        <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <div class="relative z-10 min-h-screen container mx-auto px-6 md:px-12 flex items-center py-24">
+        <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <!-- Left Text -->
             <div class="text-white max-w-xl">
                 <span class="inline-block text-[10px] font-bold tracking-widest uppercase mb-6 opacity-80">
-                    ● LCV®
+                    ● How It Works
                 </span>
                 
                 <h2 class="text-4xl md:text-[56px] leading-[1.1] font-medium tracking-tight mb-12">
-                    Most probiotics don't survive digestion—DS-01® does.
+                    Every recommendation can answer: "Why am I seeing this?"
                 </h2>
                 
-                <div class="flex items-center gap-6 bg-white/10 backdrop-blur-md p-6 rounded-lg max-w-md border border-white/10">
-                    <div class="flex flex-col">
-                        <span class="text-[10px] uppercase tracking-widest opacity-70 mb-1">DS-01® Increases</span>
-                        <span class="text-sm font-medium">healthy bacteria by</span>
+                <div class="space-y-6 mb-12">
+                    <div class="bg-white/5 backdrop-blur-md p-6 rounded-lg border border-white/10 hover:bg-white/10 transition-colors">
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-full bg-[var(--color-primary-400)] flex items-center justify-center flex-shrink-0 mt-1">
+                                <span class="text-white text-sm font-bold">1</span>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-medium mb-2">Quick Taste Profile</h3>
+                                <p class="text-sm text-white/70">Tell us what you like in 2 minutes. No long setup, no account required.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text-5xl font-light tracking-tighter">
-                        3.1x<sup class="text-lg">*</sup>
+                    
+                    <div class="bg-white/5 backdrop-blur-md p-6 rounded-lg border border-white/10 hover:bg-white/10 transition-colors">
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-full bg-[var(--color-primary-400)] flex items-center justify-center flex-shrink-0 mt-1">
+                                <span class="text-white text-sm font-bold">2</span>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-medium mb-2">Confident Picks</h3>
+                                <p class="text-sm text-white/70">Get clear, opinionated recommendations with explanations you can trust.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="ml-auto">
-                        <div class="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center">
-                            <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor" class="transform rotate-[-45deg]">
-                                <path d="M5 0L5 10M0 5L10 5" stroke="currentColor" stroke-width="1.5" />
-                            </svg>
+                    
+                    <div class="bg-white/5 backdrop-blur-md p-6 rounded-lg border border-white/10 hover:bg-white/10 transition-colors">
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-full bg-[var(--color-primary-400)] flex items-center justify-center flex-shrink-0 mt-1">
+                                <span class="text-white text-sm font-bold">3</span>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-medium mb-2">Buy Immediately</h3>
+                                <p class="text-sm text-white/70">No browsing, no overwhelm. Just add to cart and enjoy.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <p class="mt-8 text-[10px] opacity-60 max-w-xs">
-                    *in a clinical trial of n=103 individuals with occasional GI challenges
-                </p>
+                <a href="/" class="inline-flex items-center bg-white text-[#191919] px-8 py-3.5 rounded-full font-medium text-[13px] hover:bg-gray-100 transition-colors tracking-wide group">
+                    Try It Now
+                    <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </a>
             </div>
 
-            <!-- Right Capsule Diagram -->
+            <!-- Right: Visual -->
             <div class="relative h-[600px] flex items-center justify-center">
-                <!-- Capsule Container -->
-                <div class="relative w-32 h-96">
-                    <!-- Outer Capsule (Top) -->
-                    <div class="absolute top-0 w-full h-[55%] bg-green-700/40 backdrop-blur-sm rounded-t-full border-t border-l border-r border-white/30 z-20 shadow-[inset_0_0_20px_rgba(255,255,255,0.2)]"></div>
-                    <!-- Outer Capsule (Bottom) -->
-                    <div class="absolute bottom-0 w-full h-[55%] bg-green-700/40 backdrop-blur-sm rounded-b-full border-b border-l border-r border-white/30 z-20 shadow-[inset_0_0_20px_rgba(255,255,255,0.2)]"></div>
-                    
-                    <!-- Inner Capsule -->
-                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-64 z-10">
-                         <div class="w-full h-1/2 bg-[#D4E995] rounded-t-full opacity-90"></div>
-                         <div class="w-full h-1/2 bg-[#C0D888] rounded-b-full opacity-90"></div>
-                         <!-- Powder effect -->
-                         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-[#D4E995] blur-xl opacity-20"></div>
-                    </div>
-                    
-                    <!-- Labels -->
-                    <div class="absolute top-[20%] -left-48 text-right w-40 hidden md:block">
-                        <h4 class="text-[10px] font-bold uppercase tracking-widest text-white mb-1">Outer Capsule</h4>
-                        <p class="text-[10px] text-white/70 leading-relaxed">
-                            Shields probiotics from stomach acid in the digestive tract, while delivering prebiotics to stimulate the growth of beneficial bacteria.
-                        </p>
-                        <div class="absolute top-2 -right-6 w-6 h-[1px] bg-white/30"></div>
-                    </div>
-                    
-                    <div class="absolute bottom-[20%] -right-48 text-left w-40 hidden md:block">
-                        <h4 class="text-[10px] font-bold uppercase tracking-widest text-white mb-1">Inner Capsule</h4>
-                        <p class="text-[10px] text-white/70 leading-relaxed">
-                            Delivers 24 live strains of probiotics to the colon, where they're needed most.
-                        </p>
-                        <div class="absolute top-2 -left-6 w-6 h-[1px] bg-white/30"></div>
+                <div class="relative w-full max-w-md">
+                    <!-- Recommendation Cards Stack -->
+                    <div class="space-y-4">
+                        <!-- Card 1 -->
+                        <div class="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 transform rotate-[-2deg] hover:rotate-0 transition-transform">
+                            <div class="flex items-center gap-4 mb-3">
+                                <div class="w-12 h-16 bg-[var(--color-primary-700)] rounded"></div>
+                                <div class="flex-1">
+                                    <h4 class="text-white font-medium text-sm">Rioja Reserva 2018</h4>
+                                    <p class="text-white/60 text-xs">Because you love bold reds</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <span class="text-[9px] bg-white/10 text-white px-2 py-1 rounded">Bold</span>
+                                <span class="text-[9px] bg-white/10 text-white px-2 py-1 rounded">Oak-aged</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card 2 -->
+                        <div class="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 transform rotate-[2deg] hover:rotate-0 transition-transform">
+                            <div class="flex items-center gap-4 mb-3">
+                                <div class="w-12 h-16 bg-[var(--color-primary-600)] rounded"></div>
+                                <div class="flex-1">
+                                    <h4 class="text-white font-medium text-sm">Islay Single Malt</h4>
+                                    <p class="text-white/60 text-xs">Matches your smoky preference</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <span class="text-[9px] bg-white/10 text-white px-2 py-1 rounded">Smoky</span>
+                                <span class="text-[9px] bg-white/10 text-white px-2 py-1 rounded">Peaty</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card 3 -->
+                        <div class="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 transform rotate-[-1deg] hover:rotate-0 transition-transform">
+                            <div class="flex items-center gap-4 mb-3">
+                                <div class="w-12 h-16 bg-[var(--color-primary-500)] rounded"></div>
+                                <div class="flex-1">
+                                    <h4 class="text-white font-medium text-sm">Belgian Tripel</h4>
+                                    <p class="text-white/60 text-xs">For when you're adventurous</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <span class="text-[9px] bg-white/10 text-white px-2 py-1 rounded">Complex</span>
+                                <span class="text-[9px] bg-white/10 text-white px-2 py-1 rounded">Fruity</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

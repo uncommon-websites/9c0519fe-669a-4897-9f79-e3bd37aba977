@@ -14,8 +14,8 @@
 
 <div class="fixed w-full z-50 transition-colors duration-300 top-0 left-0 text-seed-black font-sans">
   <!-- Top Bar -->
-  <div class="bg-[#f2f2ed] text-[11px] font-medium tracking-wide text-center py-2.5 flex justify-center items-center gap-1 cursor-pointer hover:underline">
-    <span>Is DS-01® Daily Synbiotic Right For You?</span>
+  <div class="bg-[#f9f9f7] text-[11px] font-medium tracking-wide text-center py-2.5 flex justify-center items-center gap-1 cursor-pointer hover:underline">
+    <span>Not sure what to drink next? Take our taste quiz</span>
     <span class="text-[10px]">➜</span>
   </div>
 
@@ -23,23 +23,23 @@
   <nav class="flex justify-between items-center px-6 py-4 md:px-10 transition-all duration-300 {isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3 text-seed-black' : 'bg-transparent text-white'}">
     <!-- Left Links -->
     <div class="hidden md:flex items-center gap-8 text-[13px] font-medium tracking-wide">
-      <a href="/" class="hover:opacity-60 transition-opacity">Shop</a>
-      <a href="/" class="hover:opacity-60 transition-opacity">Science</a>
-      <a href="/" class="hover:opacity-60 transition-opacity">Learn</a>
+      <a href="/" class="hover:opacity-60 transition-opacity">Discover</a>
+      <a href="/" class="hover:opacity-60 transition-opacity">How It Works</a>
+      <a href="/" class="hover:opacity-60 transition-opacity">About</a>
     </div>
 
     <!-- Logo -->
     <div class="absolute left-1/2 transform -translate-x-1/2">
-      <a href="/" class="block flex items-center gap-1">
-        <span class="text-2xl font-bold tracking-tight">Seed</span>
-        <div class="w-2 h-2 rounded-full bg-current mt-1"></div>
+      <a href="/" class="block flex items-center gap-1.5">
+        <span class="text-2xl font-bold tracking-tight">Your Next Sip</span>
+        <div class="w-1.5 h-1.5 rounded-full bg-current mt-1"></div>
       </a>
     </div>
 
     <!-- Right Links -->
     <div class="flex items-center gap-6 md:gap-8">
       <a href="/" class="text-[13px] font-medium tracking-wide hover:opacity-60 transition-opacity hidden md:block">Login</a>
-      <a href="/" class="{isScrolled ? 'bg-seed-black text-white' : 'bg-white text-seed-black'} px-5 py-2 rounded-full text-[13px] font-bold tracking-wide hover:opacity-90 transition-all shadow-sm">Get Started</a>
+      <a href="/" class="{isScrolled ? 'bg-seed-black text-white' : 'bg-white text-seed-black'} px-5 py-2 rounded-full text-[13px] font-bold tracking-wide hover:opacity-90 transition-all shadow-sm">Get Recommendations</a>
       <button class="md:hidden">
         <!-- Mobile Menu Icon -->
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

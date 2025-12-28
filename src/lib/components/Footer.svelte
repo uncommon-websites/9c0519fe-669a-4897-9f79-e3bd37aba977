@@ -7,20 +7,20 @@
             <!-- Left: Brand & Newsletter -->
             <div class="lg:col-span-5">
                 <div class="flex items-center gap-1 mb-8">
-                    <span class="text-2xl font-bold tracking-tight">Seed</span>
-                    <div class="w-2.5 h-2.5 bg-white rounded-full mt-1"></div>
+                    <span class="text-2xl font-bold tracking-tight">Your Next Sip</span>
+                    <div class="w-1.5 h-1.5 bg-white rounded-full mt-1"></div>
                 </div>
                 
                 <h3 class="text-2xl md:text-[28px] font-medium leading-tight mb-8 max-w-md tracking-tight">
-                    Pioneering <span class="font-serif italic">microbiome science</span><br/> for human and planetary health<br/> since 2015.
+                    A <span class="font-serif italic">recommendation-led</span><br/> drinks marketplace<br/> for confident choices.
                 </h3>
                 
                 <div class="mb-4">
                     <p class="text-[11px] font-bold uppercase tracking-widest opacity-60 mb-2">
-                        Science with Seed—nerdy reads for your inbox.
+                        Get personalized picks in your inbox.
                     </p>
                     <p class="text-[11px] opacity-40 mb-6 font-light">
-                        By signing up you consent to receive Seed emails.
+                        By signing up you consent to receive Your Next Sip emails.
                     </p>
                     
                     <form class="flex items-center border border-white/20 rounded-full p-1 max-w-sm hover:border-white/40 transition-colors">
@@ -32,7 +32,7 @@
                 </div>
                 
                 <p class="text-[9px] opacity-30 mt-8 max-w-xs leading-relaxed">
-                    *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.
+                    Please drink responsibly. Must be 21+ to purchase. Available in select regions.
                 </p>
             </div>
 
@@ -50,9 +50,9 @@
                 <div>
                     <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6">About</h4>
                     <ul class="space-y-3 text-[13px] font-medium">
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Science</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Sustainability</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">SeedLabs</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">How It Works</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Our Curation</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Philosophy</a></li>
                     </ul>
                     
                     <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6 mt-10">Social</h4>
@@ -67,10 +67,10 @@
                 <div>
                     <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6">Inquire</h4>
                     <ul class="space-y-3 text-[13px] font-medium">
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Partner</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Practitioners</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Partner With Us</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Suppliers</a></li>
                         <li><a href="/" class="hover:opacity-70 transition-opacity">Press</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Join</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Careers</a></li>
                     </ul>
                     
                     <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6 mt-10">Legal</h4>
@@ -99,16 +99,16 @@
         <!-- Bottom Graphic Text -->
         <div class="border-t border-white/10 pt-12 pb-12 relative">
              <div class="w-full flex justify-center">
-                 <!-- SVG Graphic for "Awaken Within" style text -->
+                 <!-- SVG Graphic for tagline -->
                  <svg viewBox="0 0 1000 200" class="w-full max-w-6xl text-[#F4F4F0] opacity-90 fill-current">
                      <path d="M50,150 Q100,50 150,150 T250,150 T350,150" stroke="currentColor" stroke-width="20" fill="none" stroke-linecap="round" />
-                     <text x="500" y="150" text-anchor="middle" font-family="serif" font-style="italic" font-size="120" font-weight="bold" letter-spacing="-5">Awaken Within</text>
+                     <text x="500" y="150" text-anchor="middle" font-family="serif" font-style="italic" font-size="100" font-weight="bold" letter-spacing="-3">Confidence in Choice</text>
                  </svg>
              </div>
         </div>
         
         <div class="text-center text-[10px] opacity-30 font-medium tracking-wide">
-            © 2025 Seed (Seed Health, Inc.)
+            © 2025 Your Next Sip
         </div>
     </div>
 </footer>

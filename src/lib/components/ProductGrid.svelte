@@ -3,45 +3,45 @@
 
     const products = [
         {
-            badge: "Bestseller",
-            code: "DS-01®",
-            title: "Daily Synbiotic",
-            image: "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=500&auto=format&fit=crop", 
-            price: "$49.99"
+            badge: "Popular",
+            code: "WINE",
+            title: "Curated Wines",
+            image: "/generated/image-premium-red-wine-bottle-on-a-minimalist--1766918509791-1.webp", 
+            price: "$24"
+        },
+        {
+            badge: "Trending",
+            code: "SPIRITS",
+            title: "Premium Spirits",
+            image: "/generated/image-craft-whisky-bottle-with-amber-liquid-in-1766918511928-2.webp", 
+            price: "$45"
         },
         {
             badge: "New",
-            code: "DM-02™",
-            title: "Daily Multivitamin",
-            image: "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=500&auto=format&fit=crop", 
-            price: "$39.99"
+            code: "BEER",
+            title: "Craft Beer",
+            image: "/generated/image-craft-beer-bottles-in-ice-bucket-at-casu-1766918514208-3.webp",
+            price: "$18"
         },
         {
-            badge: "New",
-            code: "AM-02™",
-            title: "Energy + Focus",
-            image: "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=500&auto=format&fit=crop",
-            price: "$34.99"
-        },
-        {
-            badge: "New",
-            code: "PM-02™",
-            title: "Sleep + Restore",
-            image: "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=500&auto=format&fit=crop",
-            price: "$34.99"
+            badge: "Curated",
+            code: "SETS",
+            title: "Tasting Sets",
+            image: "/generated/image-curated-selection-of-wine-bottles-arrang-1766918516545-4.webp",
+            price: "$89"
         }
     ];
 </script>
 
-<section class="bg-[#1A3026] py-24">
+<section class="bg-[#191919] py-24">
     <div class="container mx-auto px-6 md:px-12">
         <div class="flex flex-col md:flex-row justify-between items-end mb-16 text-white">
             <div class="max-w-xl">
-                <h2 class="text-4xl md:text-[44px] leading-tight font-medium tracking-tight mb-6">Whole body health starts in the gut.</h2>
-                <p class="text-[17px] text-white/80 font-light max-w-md leading-relaxed">Formulations that provide fast-acting and sustained support using scientifically and clinically studied ingredients.</p>
+                <h2 class="text-4xl md:text-[44px] leading-tight font-medium tracking-tight mb-6">Confidence in choice, delivered.</h2>
+                <p class="text-[17px] text-white/80 font-light max-w-md leading-relaxed">A tightly curated range of wine, spirits, and beer—selected to match your taste and backed by clear, explainable recommendations.</p>
             </div>
             <a href="/" class="hidden md:inline-flex items-center text-[13px] font-bold border-b border-white/30 pb-0.5 hover:border-white transition-colors mt-6 md:mt-0 tracking-wide uppercase">
-                Shop All <span class="ml-2">→</span>
+                Explore All <span class="ml-2">→</span>
             </a>
         </div>
 
@@ -53,7 +53,7 @@
 
         <div class="mt-12 text-center md:hidden">
             <a href="/" class="inline-flex items-center text-[13px] font-bold border-b border-white/30 pb-0.5 hover:border-white transition-colors text-white tracking-wide uppercase">
-                Shop All <span class="ml-2">→</span>
+                Explore All <span class="ml-2">→</span>
             </a>
         </div>
     </div>
